@@ -1,0 +1,25 @@
+.beta{
+  text-align:center;
+  padding-top:0px;
+}
+.google{
+  padding-top: 112px;
+  
+}
+#txtSearch{
+  width:450px;
+  border-radius:10px;
+  border-radius:20px;
+}
+.buttons{
+ padding-top:20px;
+}
+#google_search{
+background-color:white;
+color:black;
+border-radius:3px;
+}
+#google_search:hover{
+  background-color:blue;
+  color:white;
+}
