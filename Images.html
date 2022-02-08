@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>images -xzip</title>
+  <link rel="stylesheet" href="images.css">
+</head>
+<style>
+.beta{
+  text-align:center;
+  padding-top:0px;
+}
+.google{
+  padding-top: 112px;
+  
+}
+#txtSearch{
+  width:450px;
+  border-radius:10px;
+  border-radius:20px;
+}
+.buttons{
+ padding-top:20px;
+}
+#google_search{
+background-color:white;
+color:black;
+border-radius:3px;
+}
+#google_search:hover{
+  background-color:blue;
+  color:white;
+}
+
+</style>
+
+<body>
+<center> <div class="google"><font size="80">
+<font color="blue">x</font>
+<font color="red">z</font>
+<font color="green">i</font>
+<font color="yellow">p</font>
+</font>
+<div class="beta">
+ <h4>images</h4>
+</div>
+
+    </div>
+</center>
+    
+    <!-- FORM SEARCH -->  
+    <div class="form">  
+      <form id="frmSearch"  method="get" />
+<center><input  type="text" id="txtSearch"     
+placeholder="Search ...."  /></center>
+
+ <!-- BUTTONS -->
+<center><div class= "buttons">  
+      <input type="submit" value="Search" id="google_search">
+      <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+    </div></center>
+
+<script type="text/javascript">
+    document.getElementById('frmSearch').onsubmit = function() {
+        window.location = 'https://xzipimg.blogspot.com/search?q=' + document.getElementById('txtSearch').value;
+        return false;
+    }
+</script>
+</body>
+
+</html>
